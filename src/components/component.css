@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Muller Bold";
+    src: url("../fonts/MullerBold.otf") format("otf");
+}
+body {
+    overflow-x: hidden;
+}
+/*
+    Start Header component
+ */
+.header__wrapper{
+    width: 100%;
+    height: 784px;
+}
+.background_header {
+    background-image: url('../images/wrap.png') ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-size: 100%;
+}
+.header__log{
+    background: url('../images/logo.png') no-repeat;
+    width: 206px;
+    height: 125px;
+    background-size: 75%;
+    position: relative;
+    top: -2%;
+    left: 8%;
+}
+.header__text{
+    position: relative;
+    left: 8%;
+    top: 11%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.first_headers{
+    font-family: "Muller Bold", sans-serif;
+    color: #44a09b;
+    font-size: 22px;
+    font-weight: 400;
+}
+.second_headers{
+    font-family: "Muller Regular";
+    color: #000000;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.32px;
+}
+.header__button_box{
+    background-color: #fff;
+    width: 40%;
+    height: 150px;
+    position: relative;
+    top:18%;
+    border-radius: 0 100px 100px 0;
+    display: flex;
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+.header__wrap_button_box{
+    width: 75%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.button_box_text{
+    font-family: "Muller Medium", monospace;
+    color: #ff8141;
+    font-size: 20px;
+
+    
+}
+.button_header {
+    width: 100%;
+    /*height: 30%;*/
+    border-radius: 50px;
+    border: none;
+    background-color: #ff8141;
+    /*position: relative;*/
+    /*top: 10%;*/
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer
+}
+.button_header > span{
+    font-family: Muller Bold, monospace;
+    color: #ffffff;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.header__scroll_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 17%;
+}
+
+.header_scroll_text {
+    font-family: "Visby CF - Heavy", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.header_scroll_triangle {
+    background-image: url("../images/triangle.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 42px;
+    cursor: pointer;
+}
+/*
+    End Header component
+ */
+
+
+
+/*
+    Start Main component
+ */
+.main_wrapper {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__background {
+
+}
+.main__left_side {
+    width: 50%;
+    background-color: #11aaff;
+}
+.slider_wrapper {
+    width: 100%;
+}
+.slick-slide img{
+    width: 100%;
+    height: 490px;
+}
+.slick-next{
+    right: 0;
+}
+.main__right_side {
+    width: 50%;
+    background-color: #44a09b;
+}
+/*
+    End Main component
+ */
