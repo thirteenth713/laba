@@ -1,5 +1,7 @@
 import React from 'react';
 import SimpleSlider from './SimpleSlider';
+import List from './List';
+
 
 class MyMain extends React.Component{
 
@@ -12,7 +14,7 @@ class MyMain extends React.Component{
                     </div>
                 </div>
                 <div className="main__right_side">
-
+                 <List />
                 </div>
             </div>
         )
