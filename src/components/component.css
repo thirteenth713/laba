@@ -47,7 +47,7 @@ body {
     font-weight: 400;
 }
 .second_headers {
-    font-family: "Muller Regular";
+    font-family: "Muller Regular", Roboto, sans-serif;
     color: #000000;
     font-size: 38px;
     font-weight: 400;
@@ -83,12 +83,10 @@ body {
 
 .button_header {
     width: 100%;
-    /*height: 30%;*/
     border-radius: 50px;
     border: none;
     background-color: #ff8141;
-    /*position: relative;*/
-    /*top: 10%;*/
+    text-align: center;
     margin-top: 20px;
     outline: none;
     cursor: pointer
@@ -165,25 +163,23 @@ body {
 }
 .main__right_side {
     width: 50%;
+    display: flex;
+    justify-content: center;
     background-color: #ffffff;
 }
 .list_wrapper {
-    display: block;
     width: 565px;
-    height: 488px;
+    align-self: center;
     color: #575656;
-    font-family: "Visby CF";
-    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     font-weight: 300;
-    margin-left: 39px;
 }
 
 .IN_THIS_NEW {
-    width: 461px;
-    height: 82px;
     color: #3a4a62;
-    font-family: "Visby CF";
-    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
     margin-left: 20px;
@@ -231,24 +227,23 @@ body {
 
 
 
- .footer_wrapper{
- width: 1931px;
- height: 180px;
- background-color: #273d50;
- padding: 100px 0 0 144px;
- }
+.footer_wrapper{
+    height: 180px;
+    background-color: #273d50;
+    display: flex;
+    justify-content: center;
+}
 
- .footer_text {
-   
+.footer_text {
+    align-self: center;
     color: #fefdfd;
-    font-family: "Visby CF - Extra Bold";
+    font-family: 'Roboto', sans-serif;
     font-size: 54px;
     font-weight: 400;
     line-height: 53px;
     text-transform: uppercase;
-    /* Text style for "Here’s wha" */
     letter-spacing: 1.8px;
- }
+}
 
  /*
     End Footer component
@@ -259,22 +254,12 @@ body {
     Forms component
  */
 
- .forms_wrapper {
-    background-color:#ccc;
-    width: 674px;
-    height: 488px;
- }
+.form_container {
+    background: linear-gradient(#8ed2bb, #203b50);
+}
+
 form {
-    position: relative;
-    top: 37%;
-    left: 20%
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
 }
-input{
-   
-    margin: 0px auto 10px;
-     text-align: left;
-   
-}
-
-
  

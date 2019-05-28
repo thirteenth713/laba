@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { Link } from 'react-router-dom';
 
 export default class List extends Component {
   constructor() {
@@ -28,9 +28,11 @@ export default class List extends Component {
               
                     <li className="plus"> PLUS! An on-camera live Q&xi;A at the end to ask Ari anything! </li>
                     </ul>
+                      <Link to="/form">
                         <button  className="button_center register" onClick={this.showForm}>
                             <span> Register NOW</span>
                         </button>
+                      </Link>
                       
                        
           </div>

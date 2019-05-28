@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 class MyHeader extends React.Component {
      render() {
@@ -7,9 +9,11 @@ class MyHeader extends React.Component {
                 <div className="background_header">
 
                 </div>
-                <div className="header__log">
-                
-                </div>
+                <Link to="/" >
+                  <div className="header__log">
+
+                  </div>
+                </Link>
                 <div className="header__text">
                     <span className='first_headers'>New Free Training from Ari:</span>
                     <span className='second_headers'>The Secret to Easily Crafting
@@ -21,9 +25,12 @@ class MyHeader extends React.Component {
                         <span className="button_box_text">
                         Tuesday, September 13th, 12:30pm EST
                         </span>
-                        <button className="button_header register">
-                            <span> Register NOW</span>
-                        </button>
+                      <Link to="/form" className="button_header register">
+                        {/*<button className="button_header register">*/}
+                                <span> Register NOW</span>
+                        {/*</button>*/}
+                      </Link>
+
                     </div>
                 </div>
                 
